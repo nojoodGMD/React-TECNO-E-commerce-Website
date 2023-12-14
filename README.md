@@ -19,18 +19,18 @@ And that's how you can run the website 😉
 
 ## User login info:
 to sign in as a normal user, you can use those data:-
-Email: david.johnson@example.com
-Password: hashed_password
+- Email: david.johnson@example.com
+- Password: hashed_password
 
 ## Admin login info:
 to sign in as an admin user, you can use those data:-
-Email: Othman@gmail.com
-Password: 123
+- Email: Othman@gmail.com
+- Password: 123
 
 ## Blocked user info:
 to try signing in as a blocked user, you can use those data:
-Email: MuredE@gmail.com
-Password: 123
+- Email: MuredE@gmail.com
+- Password: 123
 
 P.S. try entring a wrong email address or password and see the outcome.
 
