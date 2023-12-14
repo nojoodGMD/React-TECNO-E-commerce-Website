@@ -44,3 +44,6 @@ P.S. try entring a wrong email address or password and see the outcome.
 <img src='https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png' alt='npm' width=50>
 </p>
 
+## Backend part
+- status: Done!✅
+- Link : https://github.com/nojoodGMD/E-commerce-backend
