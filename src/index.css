@@ -1,0 +1,403 @@
+:root{
+  --dashboard-sidebar-color : rgb(69, 69, 72);
+  --secondary-sidevar-color: #DDE0E5;
+  --admin-user-sidebar-font-color : white;
+
+  --main-dark-color : #212529;
+  --button-color-light-blue:  #0d6efd;
+  --button-color-after-hover: #165cc6;
+
+}
+
+/* Navbar */
+.navigation-bar a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+
+  transition: 0.2s;
+}
+
+.navigation-bar a:hover{
+  color: darkgray;
+}
+
+
+.cart-icon{
+  color: white;
+  transition: 0.2s;
+}
+
+.cart-icon:hover{
+  color: darkgray;
+}
+
+.badge{
+  background-color: crimson;
+  border-radius: 50%;
+  font-size:10px;
+}
+
+.no-badge{
+  opacity: 0;
+}
+
+.cart-no-items{
+  margin-top: 15px;
+  text-align: center;
+  font-size: larger;
+}
+
+.cart-title{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cart-remove-all{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.cart-remove-all button{
+  background-color: crimson;
+  border: none;
+
+  transition: 0.3s;
+}
+.cart-remove-all button:hover{
+  background-color: rgb(147, 3, 32);
+}
+
+.cart__remove-item-btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* Hero image */
+.hero-img {
+  height: 70vh;
+  background-image: url(../src/img/headerImage3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0rem 0rem 0rem 8rem;  
+}
+
+
+.hero-text h1{
+  font-size: 50px;
+  font-weight: 800;
+  -webkit-text-stroke: 2px white;
+}
+
+.hero-text p{
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  padding: 5px;
+}
+
+/* Footer */
+
+.main-container{
+  min-height: 90vh;
+}
+
+.footer{
+  background-color: var(--main-dark-color) ;
+  color: white;
+  /* position:absolute;
+  left:0;
+  bottom:0;
+  right:0; */
+  display: flex;
+  justify-content: center;
+}
+
+/* search bar */
+.search-bar{
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: var(--main-dark-color);
+  border-width: 1px;
+  padding-left: 5px;
+}
+
+/* sort bar */
+.sort-bar{
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: var(--main-dark-color);
+  border-width: 1px;
+  padding-left: 5px;
+}
+
+/* pagination */
+.home__pagination{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 15px;
+}
+
+.home__pagination button{
+  background-color: var(--button-color-light-blue);
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.home__pagination button:hover{
+  background-color: var(--button-color-after-hover);
+}
+
+.home__pagination button:disabled{
+  background-color: var(--secondary-sidevar-color);
+  cursor: default;
+}
+
+/* Admin Page styling */
+.admin__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin__sidebar{
+  background-color: var(--dashboard-sidebar-color);
+  color: var(--admin-user-sidebar-font-color);
+  flex: 1;
+  padding: 1rem;
+  min-height: 100vh;
+  max-width: 350px;
+
+}
+
+.admin__main-content{
+  background-color: var(--secondary-sidevar-color);
+  flex: 2;
+  padding: 1rem;
+}
+
+.dashboard__links{
+  list-style-type: none;
+}
+
+.dashboard__links a{
+  text-decoration: none;
+  color: white;
+}
+
+.dashboard__links a:hover{
+  color: darkgray;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* User sidebar */
+.user__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.user__sidebar{
+  background-color: var(--dashboard-sidebar-color);
+  color: var(--admin-user-sidebar-font-color);
+  flex: 1;
+  padding: 1rem;
+  min-height: 100vh;
+  max-width: 350px;
+
+}
+
+.user__main-content{
+  background-color: var(--secondary-sidevar-color);
+  flex: 2;
+  padding: 1rem;
+}
+/* list product */
+.products{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.admin__product-img{
+  width: 100px;
+}
+
+
+/* Home, list of products */
+.home__list-of-products{
+ 
+  max-width: 1150px;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home__signel-product{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.home__btn{
+  margin-left: 10px;
+}
+
+
+.home__product-img{
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Product details */
+
+.product-details__header{
+  text-align: center;
+  margin: 15px;
+}
+
+
+.product-details{
+  margin-left:auto;
+  margin-right: auto;
+  width: 500px;
+  text-align: center;
+  border: var(--main-dark-color) solid 1px;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+
+.product-detail__title{
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.product-detail__price{
+  font-weight: 600;
+}
+
+.product-details img{
+  width: 200px;
+}
+
+.product-details button{
+  margin-left: 10px;
+  background-color: var(--button-color-light-blue);
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.product-details button:hover{
+  background-color: var(--button-color-after-hover);
+}
+
+/* Search bar */
+.home-page__functionality{
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+/* Register */
+.register__container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 800px ;
+}
+
+.register__btn{
+  display: flex;
+  justify-content: center;
+}
+
+.validation-msg{
+  color: crimson;
+}
+
+/* Contact us */
+.contact__container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 800px ;
+}
+
+.contact-btn{
+  display: flex;
+  justify-content: center;
+}
+
+/* Login */
+.login-form{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 800px ;
+}
+
+.login-form__btn{
+  display: flex;
+  justify-content: center;
+}
+
+/* Products List in admin */
+.products__table{
+  max-width: 700px;
+  /* display: flex; */
+}
+
+#product-detail__edit:hover{
+  color: dimgrey;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#product-detail__delete:hover{
+  color: crimson;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#product-add{
+  font-size: larger;
+}
+
+#product-add:hover{
+  color: dimgrey;
+  cursor: pointer;
+  transition: 0.3s;
+}
