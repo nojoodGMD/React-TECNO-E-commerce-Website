@@ -1,6 +1,4 @@
 # Welcome to my React.js e-commerce website project TECHNO
-- tools I used (HTML - CSS - React - Redux - Bootstrap )
-
 This website have many functionlilies such as sign in as a user, sign in as an admin, add products to shopping cart, search for products, register ... and many more!
 
 # How to run the website
